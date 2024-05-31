@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f6;
+    color: #333;
+}
+
+header {
+    background-color: #009688;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 0px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.hero-image {
+
+    width: 100%;
+    height: auto;
+    border-radius: 00px;
+    margin-bottom: 00px;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    color: white;  /* Ensure overlay text is white */
+    text-align: center;
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);  /* Adjusted to improve readability */
+}
+
+.overlay-text p {
+    margin: 0;
+}
+
+.overlay-text a {
+    color: white;  /* Ensure link text is white */
+    text-decoration: none;  /* Optional: Remove underline from links */
+}
+
+.overlay-text a:hover {
+    text-decoration: underline;  /* Optional: Add underline on hover */
+}
+
+.intro {
+    text-align: center;
+}
+
+.content {
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #009688;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
